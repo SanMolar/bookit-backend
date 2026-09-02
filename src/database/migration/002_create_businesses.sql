@@ -9,7 +9,7 @@ CREATE TABLE public.businesses(
     timezone VARCHAR(50) NOT NULL,
     is_active BOOLEAN DEFAULT TRUE NOT NULL,
     created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-     updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
 
